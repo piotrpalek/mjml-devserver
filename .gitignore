@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# build dist
+build
+dist
+.cache-loader
+cacheImagemin
+**/mail/index.html
+**/mail/prod.html
+**/mail/contextProd.json
+
+# fonts build
+source/_assets/fonts/app/icons
+source/_assets/less/fonts
+
+# test
+test/dist
+
+# build helpers
+source/libraries.js
+source/buildInfo.coffee
+
+# external libraries
+node_modules
+bower_components
+
+# sprites
+source/_assets/less/sprites
+!source/_assets/less/sprites/predefined.less
+source/_assets/img/sprites
+
+# Optional npm cache directory
+.npm
+
+# IDE
+.idea
+.vscode
+.awcache
+
+# logs
+npm-debug.log
+
+#jest
+junit.xml
+coverage/
+
+# others
+.DS_Store
+package-lock.json
